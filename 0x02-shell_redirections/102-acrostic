@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -o ^[[:upper:]] | echo "$(tr -d "\n")"
+perl -ne 'print "$1" if /^([A-Z])/' | echo "$(tr "H" "H\n")"
