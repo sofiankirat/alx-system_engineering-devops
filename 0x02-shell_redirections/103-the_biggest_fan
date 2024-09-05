@@ -1,0 +1,2 @@
+#!/bin/bash
+perl -ne 'print "$1\n" if /^(\S+)/' | sort | uniq -D | uniq -c | sort -rh | head -n 11 | rev | perl -ne 'print "$1\n" if /^(\S+)/' | rev
