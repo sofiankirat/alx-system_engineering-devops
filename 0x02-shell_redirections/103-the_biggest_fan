@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -ne 'printf "$1\n" if /^(\S+)/'|sort|uniq -c|sort -hr|head -11|rev|cut -d " " -f 1|rev
+perl -ne 'print "$1\n" if /^(\S+)/'|sort|uniq -c|sort -hr|head -11|rev|cut -d " " -f 1|rev
