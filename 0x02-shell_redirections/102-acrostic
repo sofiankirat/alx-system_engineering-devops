@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -ne 'print "$1" if /^([A-Z])/' | echo "$(tr "H" "H")"
+cut -c1 | echo "$(tr -d "\n")"
