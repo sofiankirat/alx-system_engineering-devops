@@ -1,0 +1,2 @@
+#!/bin/bash
+cat -n | tr "\t" "/" | rev | grep "/[13579]" | rev | cut -c8-
