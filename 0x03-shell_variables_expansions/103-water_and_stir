@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "$WATER\n" |printf "$(tr "water" "01234")+5#$STIR\n" | printf "%o\n" $(printf "$(printf "$((5#$(tr "stir." "01234")))")\n") | tr "01234567" "bestchol"
+printf "$WATER\n" |printf "$(tr "water" "01234")+5#$STIR\n" | printf "%o\n" $(printf "$(printf "$((5#$(tr "stir." "01234")))")\n") | trl"
